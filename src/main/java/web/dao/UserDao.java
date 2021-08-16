@@ -10,4 +10,8 @@ public interface UserDao {
     void updateUser(User user, Long id);
     User getUser(Long id);
     List<User> getAllUsers();
+<<<<<<< HEAD
+=======
+    User getUserByName(String name);
+>>>>>>> a16408d (Complete)
 }

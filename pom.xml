@@ -17,13 +17,33 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+<<<<<<< HEAD
+=======
+    <spring.version>5.5.1</spring.version>
+>>>>>>> a16408d (Complete)
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
+<<<<<<< HEAD
       <version>5.2.15.RELEASE</version>
+=======
+      <version>5.3.8</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-web</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-config</artifactId>
+      <version>${spring.version}</version>
+>>>>>>> a16408d (Complete)
     </dependency>
     <dependency>
       <groupId>mysql</groupId>
@@ -94,5 +114,18 @@
         </plugin>
       </plugins>
     </pluginManagement>
+<<<<<<< HEAD
+=======
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>8</source>
+                  <target>8</target>
+              </configuration>
+          </plugin>
+      </plugins>
+>>>>>>> a16408d (Complete)
   </build>
 </project>
